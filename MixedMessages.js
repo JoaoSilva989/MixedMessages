@@ -11,7 +11,7 @@ const actions = [
     'getting hit by a vehicle',
     'finding a 50$ bill on the floor',
     'breaking a leg while running away from a disco',
-    'rescuing and adopt a stray animal',
+    'rescuing and adopting a stray animal',
     'breaking a nail',
     'getting asked out on a date',
     'fighthing a duel',
@@ -32,31 +32,8 @@ const characters = [
     'Jimmy Carey'
 ]
 
-function generateRandomNumber(num) {
-    return Math.floor(Math.random() * num)
-  }
+var places1 = places[Math.floor(Math.random()*places.length)];
+var actions1 = actions[Math.floor(Math.random()*actions.length)];
+var characters1 = characters[Math.floor(Math.random()*characters.length)];
 
-let Rplaces = [];
-let Ractions = [];
-let Rcharacters = [];
-
-for (place in places) {
-    let optionp = generateRandomNumber(places[place].length)
-
-    Rplaces.push(places[place][optionp])
-}
-
-for (action in actions) {
-    let optiona = generateRandomNumber(actions[action].length)
-
-    Ractions.push(actions[action][optiona])
-}
-
-for (character in characters) {
-    let optionc = generateRandomNumber(characters[character].length)
-
-    Rcharacters.push(characters[character][optionc])
-}
-
-
-
+console.log("You will be in " + places1 + " " + actions1 + " with " + characters1);
