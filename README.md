@@ -1,6 +1,6 @@
-## MixedMessages
+# MixedMessages
 
-# Where will you be in one year?
+## Where will you be in one year?
 
 This app will create a random message, from a selected set of words, to describe what you'll be doing in a year, where and with whom.
 
