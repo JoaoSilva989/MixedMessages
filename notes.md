@@ -13,7 +13,7 @@
 + Hell
 
 
-## You will:
+## You will be:
 
 + getting hit by a vehicle
 + finding a 50$ bill on the floor
@@ -26,7 +26,7 @@
 + eating spaghetti
 + pranking an old lady
 
-## Alongside
+## Alongside:
 
 + SpongeBob
 + Naruto
