@@ -1,5 +1,7 @@
 # MixedMessages
 
+This app is a project in the full-stack codeacademy course, where we have to create a random message generator.
+
 ## Where will you be in one year?
 
 This app will create a random message, from a selected set of words, to describe what you'll be doing in a year, where and with whom.
