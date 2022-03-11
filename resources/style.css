@@ -31,3 +31,27 @@ h1{
     color: #141c3a;
     cursor: pointer;
 }
+
+#batmanImg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#peterImg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#eminemImg {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+}
