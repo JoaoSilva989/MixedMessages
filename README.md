@@ -11,3 +11,4 @@ The funcionality of this program is to create a funny random message, that will 
 1. Download the HTML, CSS and JAVASCRIPT files.
 2. Open the HTML file, it should redirect you to your browser.
 3. Press the **"Let me see!"** button and have fun.
+4. Find the easter eggs!
