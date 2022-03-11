@@ -1,9 +1,13 @@
 # MixedMessages
 
-This app is a project in the full-stack codeacademy course, where we have to create a random message generator.
+This site is a project in the full-stack codeacademy course, where we have to create a random message generator.
 
 ## Where will you be in one year?
 
-This app will create a random message, from a selected set of words, to describe what you'll be doing in a year, where and with whom.
+The funcionality of this program is to create a funny random message, that will predict where you'll be in one year. 
 
-To use this app, just **donwload** the MixedMessages.js file, and run it.
+## How to use the program?
+
+1. Download the HTML, CSS and JAVASCRIPT files.
+2. Open the HTML file, it should redirect you to your browser.
+3. Press the "Let me see!" button and have fun.
