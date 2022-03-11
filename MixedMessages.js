@@ -29,11 +29,25 @@ const characters = [
     'Morty',
     'DeadPool',
     'Michael Scott',
-    'Jimmy Carey'
+    'Jimmy Carey',
+    'Batman'
 ]
 
+let mixedMessage = document.getElementById('mixedMessage');
+let button = document.getElementById('messageButton');
+
+function messageSelector() {
 var places1 = places[Math.floor(Math.random()*places.length)];
 var actions1 = actions[Math.floor(Math.random()*actions.length)];
 var characters1 = characters[Math.floor(Math.random()*characters.length)];
 
-console.log("You will be in " + places1 + " " + actions1 + " with " + characters1);
+return "You will be in " + places1 + " " + actions1 + " with " + characters1;
+
+}
+
+function showMessage() {
+    mixedMessage.innerHTML = messageSelector();
+    button.style.cursor = 'default';
+}
+
+button.addEventListener('click', showMessage);
