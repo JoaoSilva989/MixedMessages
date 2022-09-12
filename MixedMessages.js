@@ -81,18 +81,20 @@ function imageSelector(message) {
 
 async function showMessage() {
 
-    var count = 0;
-    var isImage = false;
-    while (isImage === false) {
+  // Uncomment to make function automatic until an image appears
+
+    /*var count = 0;
+    //var isImage = false;
+    //while (isImage === false) {*/
         var message = messageSelector();
         mixedMessage.innerHTML = message;
-        isImage = imageSelector(message);
+        //isImage = imageSelector(message);
         batmanImg.innerHTML = imageSelector(message);
         button.style.cursor = 'default';
-        count++;
+        /*count++;
         console.log(count + ' ' + message);
         await new Promise(resolve => setTimeout(resolve, 100));
-    }
+    }*/
 }
 
 button.addEventListener('click', showMessage);
